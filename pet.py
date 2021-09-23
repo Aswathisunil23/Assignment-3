@@ -41,13 +41,13 @@ class Pet():
         print("\nBoredom reduced")
 class Dog(Pet):
     sound = []
-    def __init__(self, name="Pluto"):
-        Pet.__init__(self, name="Pluto")
+    def __init__(self, name="Bruno"):
+        Pet.__init__(self, name="Bruno")
         self.sound = "Bow"
 class Cat(Pet):
     sound = []
-    def __init__(self, name="Snowy"):
-        Pet.__init__(self, name="Snowy")
+    def __init__(self, name="Snowbell"):
+        Pet.__init__(self, name="Snowbell")
         self.sound = "Moew"
 pick = int(input("SELECT THE PET\n1)Puppy\n2)Kitten\n"))
 if (pick == 2):
